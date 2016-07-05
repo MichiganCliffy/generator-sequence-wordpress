@@ -1,0 +1,101 @@
+.global-header {
+  .logo {
+    float: left;
+    border: none;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin: 4px 0 4px 10px;
+  }
+
+  .masthead {
+    display: none;
+  }
+
+  .navbar-brand {
+    padding-left: 8px;
+  }
+
+  .navbar-right {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  @media screen and (min-width: $screen-sm-min) {
+    .masthead {
+      display: block;
+      height: 80px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+  
+      .logo {
+        margin: 0 20px 0 0;
+        margin-right: 20px;
+        width: 80px;
+        height: 80px;
+      }
+
+      h1 {
+        padding-top: 0.2em;
+      }
+    }
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    .masthead {
+      height: 120px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      .logo {
+        width: 120px;
+        height: 120px;
+      }
+
+      h1 {
+        padding-top: 0.6em;
+      }
+    }
+  }
+
+  .navbar-default {
+    
+    @media screen and (min-width: $screen-sm-min) {
+      .logo,
+      .navbar-brand {
+        display: none;
+      }
+
+      .navbar-collapse {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+
+  .navbar-form {
+
+    @media screen
+      and (max-width: $screen-md-min)
+      and (min-width: $screen-sm-min) {
+      .form-control {
+        width: 120px;
+      }
+    }
+
+    .input-group-btn {
+      .btn {
+        height: 34px;
+      }
+    }
+  }
+
+  @media screen
+    and (max-width: $screen-sm-min) {
+    .navbar-form {
+      margin-top: 0;
+      padding-bottom: 3px;
+      border-bottom: none;
+    }
+  }
+}

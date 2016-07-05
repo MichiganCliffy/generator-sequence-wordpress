@@ -1,0 +1,11 @@
+{
+  "name": "<%= ThemeFolder %>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "1.11.2",
+    "bootstrap-sass-official": "~3.3.3",
+    "slick-carousel": "~1.6.0"
+  }
+}

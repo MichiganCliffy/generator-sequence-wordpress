@@ -1,0 +1,16 @@
+.main-content {
+  .post,
+  .widget {
+    background-color: $navbar-default-bg;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 1px solid $border-color;
+  }
+
+  @media screen and (min-width: $screen-sm-min) {
+    .post,
+    .widget {
+      border-radius: 4px;
+    }
+  }
+}

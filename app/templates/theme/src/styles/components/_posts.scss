@@ -1,0 +1,44 @@
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 60px;
+}
+
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+.type-post {
+  .entry-header {
+    margin-bottom: 2em;
+  }
+
+  .entry-content {
+    h1, h2 {
+      margin-top: 0.8em;
+      margin-bottom: 1em;
+    }
+
+    h3, h4 {
+      margin-top: 0.8em;
+      margin-bottom: 0.8em;
+    }
+  }
+
+  .bg-primary,
+  .bg-success,
+  .bg-info,
+  .bg-warning,
+  .bg-danger {
+    padding: 0.6em;
+    font-weight: 700;
+  }
+}
