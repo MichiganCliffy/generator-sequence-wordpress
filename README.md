@@ -13,12 +13,13 @@ A '.gitignore' file is created that will exclude the core WordPress files and th
 
 ## Dependencies
 
-The following must be installed on your local workstation for this script to work.
+The following must be installed on your local workstation for this generator to work.
 
 * [NodeJS](https://nodejs.org/en/)
 * [Ruby](https://www.ruby-lang.org/en/)
 * [VirtualBox](https://www.virtualbox.org)
 * [Vagrant](https://www.vagrantup.com)
+* [Yeoman](http://yeoman.io)
 
 ## Usage
 
