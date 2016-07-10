@@ -9,9 +9,16 @@ This Generator will:
 
 The Vagrant provisioning scripts will set up NGINX. PHP, MySQL, and the WP-CLI command line tool. The script also downloads and installs the latest version of WordPress.
 
-A '.gitignore' file is created that will exclude the core WordPress files and the default themes.
+A '.gitignore' file is created that will exclude the core WordPress files and the default themes. This setup allows for git based deployment support.
 
 ## Dependencies
+
+The following must be installed on your local workstation for this script to work.
+
+* [NodeJS](https://nodejs.org/en/)
+* [Ruby](https://www.ruby-lang.org/en/)
+* [VirtualBox](https://www.virtualbox.org)
+* [Vagrant](https://www.vagrantup.com)
 
 ## Usage
 
