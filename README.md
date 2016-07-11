@@ -41,6 +41,8 @@ $ cd ~/projects/
 $ git clone git@github.com:SequenceLLC/generator-sequence-wordpress.git
 $ cd generator-sequence-wordpress
 $ npm link
+$ mkdir ~/projects/myproject
+$ cd ~/projects/myproject
 $ yo sequence-wordpress
 ```
 
