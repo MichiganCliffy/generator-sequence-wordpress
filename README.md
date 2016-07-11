@@ -7,9 +7,9 @@ This Generator will:
 1. Set up the files for provisioning a Vagrant virtual environment to host the WordPress site.
 2. Set up a bare bones theme that can be used to start development.
 
-The Vagrant provisioning scripts will set up NGINX. PHP, MySQL, and the WP-CLI command line tool. The script also downloads and installs the latest version of WordPress.
+The Vagrant provisioning scripts will set up [NGINX](https://www.nginx.com/), [PHP 5](http://www.php.net/), [MySQL](https://www.mysql.com/), and the [WP-CLI](http://wp-cli.org/) command line tool. The script also downloads and installs the latest version of WordPress.
 
-A '.gitignore' file is created that will exclude the core WordPress files and the default themes. This setup allows for git based deployment support.
+A `.gitignore` file is created that will exclude the core WordPress files and the default themes. This setup allows for git based deployment support.
 
 ## Dependencies
 
@@ -25,10 +25,11 @@ The following must be installed on your local workstation for this generator to 
 
 Once the dependencies have been installed, you can quickly spin up a new WordPress development environment by following these steps.
 
-1. Install this Yeoman generator through npm: 'npm install git://github.com/SequenceLLC/generator-sequence-wordpress.git'
-2. Open a command prompt
-3. Create the local folder where you want this project to live: 'mkdir ~/projects/myproject'
-4. Move to the folder you just created: 'cd ~/projects/myproject'
-5. Run the Yeoman generator: 'yo sequence-wordpress'
+```
+$ npm install git://github.com/SequenceLLC/generator-sequence-wordpress.git
+$ mkdir ~/projects/myproject
+$ cd ~/projects/myproject
+$ yo sequence-wordpress
+```
 
 ## Sample Theme
