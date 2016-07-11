@@ -25,10 +25,22 @@ The following must be installed on your local workstation for this generator to 
 
 Once the dependencies have been installed, you can quickly spin up a new WordPress development environment by following these steps.
 
+### Option 1. Install from Github
+
 ```bash
 $ mkdir ~/projects/myproject
 $ cd ~/projects/myproject
 $ npm install git://github.com/SequenceLLC/generator-sequence-wordpress.git
+$ yo sequence-wordpress
+```
+
+### Option 2. Clone and Link
+
+```base
+$ cd ~/projects/
+$ git clone git@github.com:SequenceLLC/generator-sequence-wordpress.git
+$ cd generator-sequence-wordpress
+$ npm link
 $ yo sequence-wordpress
 ```
 
