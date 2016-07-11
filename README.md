@@ -23,4 +23,12 @@ The following must be installed on your local workstation for this generator to 
 
 ## Usage
 
+Once the dependencies have been installed, you can quickly spin up a new WordPress development environment by following these steps.
+
+1. Install this Yeoman generator through npm: 'npm install git://github.com/SequenceLLC/generator-sequence-wordpress.git'
+2. Open a command prompt
+3. Create the local folder where you want this project to live: 'mkdir ~/projects/myproject'
+4. Move to the folder you just created: 'cd ~/projects/myproject'
+5. Run the Yeoman generator: 'yo sequence-wordpress'
+
 ## Sample Theme
