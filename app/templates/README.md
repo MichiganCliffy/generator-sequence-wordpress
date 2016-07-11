@@ -31,7 +31,7 @@ Pull the latest revision from github, cd (change directroy) to you're local repo
 
 After the *vagrant up* is done, go to http://192.168.33.33 with your browser and enjoy wordpress.
 
-## WordPress Development
+## Theme Development
 
 Front end dependencies are managed using [Bower](http://bower.io/).
 
@@ -52,7 +52,4 @@ To make updates to the <%= ThemeName %> theme, you need to:
 
 You can use `gulp` without any options to compile assets and then watch for changes.
 
-## WordPress Configuration
-
-## Deploying Updates
-
+You can read more on theme development by viewing the readme located at wp-content/themes/<%= ThemeFolder %>/readme.md

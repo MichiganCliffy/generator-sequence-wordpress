@@ -25,11 +25,13 @@ The following must be installed on your local workstation for this generator to 
 
 Once the dependencies have been installed, you can quickly spin up a new WordPress development environment by following these steps.
 
-```
-$ npm install git://github.com/SequenceLLC/generator-sequence-wordpress.git
+```bash
 $ mkdir ~/projects/myproject
 $ cd ~/projects/myproject
+$ npm install git://github.com/SequenceLLC/generator-sequence-wordpress.git
 $ yo sequence-wordpress
 ```
 
 ## Sample Theme
+
+A sample theme is installed. You can use this theme to jumpstart development, or use another starter theme (sage is a good one).
